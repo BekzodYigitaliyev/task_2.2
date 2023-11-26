@@ -1,0 +1,64 @@
+body{
+height: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: rgb(55, 41, 67);
+}
+
+.box1{
+  height: 360px;
+  width: 180px;
+  border-bottom-right-radius: 180px;
+  border-top-right-radius: 180px;
+  background-image: linear-gradient(180deg,rgb(255, 0, 204),orange);
+  z-index: 14;
+}
+
+.box2{
+  position: relative;
+  top: -300px;
+  width: 120px;
+  height: 120px;
+  border-radius: 0 300px 0 0;
+  background-color: white;
+}
+
+.box3{
+  position: relative;
+  top: -301px;
+  width: 120px;
+  height: 120px;
+  border-radius: 0 0 300px 0;
+  background-color: rgb(227, 225, 225);
+}
+
+.box4{
+  position: relative;
+  top: -472px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(37, 35, 35);
+}
+
+.box5{
+  position: relative;
+  top: -590px;
+  right: 120px;
+  width: 120px;
+  height: 120px;
+  border-radius: 300px 0 0 0;
+  background-color: rgb(252, 252, 11);
+}
+
+.box6{
+  position: relative;
+  top: -590px;
+  right: 70px;
+  width: 70px;
+  height: 70px;
+  border-radius: 0 0 0 300px;
+  background-color: rgb(244, 188, 4);
+}
